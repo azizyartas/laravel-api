@@ -1,6 +1,5 @@
 <?php
 
-namespace App\Filters\V1;
 use Illuminate\Http\Request;
 
 class CustomerQuery
