@@ -1,8 +1,11 @@
 <?php
 
-use Illuminate\Http\Request;
+namespace App\Filters\V1;
 
-class CustomerQuery
+use Illuminate\Http\Request;
+use App\Filters\ApiFilter;
+
+class CustomersFilter extends ApiFilter
 {
     protected array $safeParms = [
         'name' => ['eq'],
